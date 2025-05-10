@@ -7,7 +7,7 @@ void BST_init(BSTree* tree) {
     *tree = NULL;
 }
 
-// Check if BST is empty
+// Check if BST is empty 
 int BST_empty(BSTree tree) {
     return tree == NULL;
 }
@@ -119,7 +119,7 @@ void BST_inorder(BSTree tree) {
     }
 }
 
-// Pre-order traversal (root, left, right)
+//  Pre-order traversal (root, left, right)
 void BST_preorder(BSTree tree) {
     if (tree != NULL) {
         printf("%d ", tree->data);
